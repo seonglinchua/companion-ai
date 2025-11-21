@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <defs>
+    <linearGradient id="tigerGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#FF8C00;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#FF6B35;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <!-- Tiger face -->
+  <ellipse cx="32" cy="34" rx="24" ry="22" fill="url(#tigerGrad)"/>
+  <!-- Ears -->
+  <circle cx="12" cy="14" r="8" fill="url(#tigerGrad)"/>
+  <circle cx="52" cy="14" r="8" fill="url(#tigerGrad)"/>
+  <circle cx="12" cy="14" r="4" fill="#FFB366"/>
+  <circle cx="52" cy="14" r="4" fill="#FFB366"/>
+  <!-- White patches -->
+  <ellipse cx="32" cy="42" rx="14" ry="12" fill="#FFF5E6"/>
+  <ellipse cx="22" cy="30" rx="6" ry="5" fill="#FFF5E6"/>
+  <ellipse cx="42" cy="30" rx="6" ry="5" fill="#FFF5E6"/>
+  <!-- Stripes -->
+  <path d="M32 12 L32 20" stroke="#1a1a1a" stroke-width="3" stroke-linecap="round"/>
+  <path d="M24 14 L20 22" stroke="#1a1a1a" stroke-width="2.5" stroke-linecap="round"/>
+  <path d="M40 14 L44 22" stroke="#1a1a1a" stroke-width="2.5" stroke-linecap="round"/>
+  <path d="M14 26 L22 30" stroke="#1a1a1a" stroke-width="2" stroke-linecap="round"/>
+  <path d="M50 26 L42 30" stroke="#1a1a1a" stroke-width="2" stroke-linecap="round"/>
+  <!-- Eyes -->
+  <ellipse cx="22" cy="30" rx="4" ry="4.5" fill="#1a1a1a"/>
+  <ellipse cx="42" cy="30" rx="4" ry="4.5" fill="#1a1a1a"/>
+  <circle cx="23" cy="29" r="1.5" fill="#fff"/>
+  <circle cx="43" cy="29" r="1.5" fill="#fff"/>
+  <!-- Nose -->
+  <ellipse cx="32" cy="40" rx="4" ry="3" fill="#1a1a1a"/>
+  <!-- Mouth -->
+  <path d="M32 43 L32 47" stroke="#1a1a1a" stroke-width="2" stroke-linecap="round"/>
+  <path d="M26 48 Q32 52 38 48" stroke="#1a1a1a" stroke-width="2" fill="none" stroke-linecap="round"/>
+  <!-- Whiskers -->
+  <path d="M18 42 L8 40" stroke="#1a1a1a" stroke-width="1.5" stroke-linecap="round"/>
+  <path d="M18 45 L8 46" stroke="#1a1a1a" stroke-width="1.5" stroke-linecap="round"/>
+  <path d="M46 42 L56 40" stroke="#1a1a1a" stroke-width="1.5" stroke-linecap="round"/>
+  <path d="M46 45 L56 46" stroke="#1a1a1a" stroke-width="1.5" stroke-linecap="round"/>
+</svg>

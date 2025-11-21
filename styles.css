@@ -106,6 +106,13 @@ body {
     background-clip: text;
 }
 
+.logo-icon {
+    width: 32px;
+    height: 32px;
+    margin-right: 8px;
+    vertical-align: middle;
+}
+
 .nav-links {
     display: flex;
     list-style: none;
